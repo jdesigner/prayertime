@@ -31,7 +31,8 @@
 					    
 						var doc = req.responseText;   // The islamicfinder.com web page as string
 						var tabl = doc.substring(16111,22766);
-						document.getElementById("zone").innerHTML = tabl ;     
+						document.getElementById('showprayertime').innerHTML = tabl ;   
+						alert(tabl);  
 					}	
 				    else {
 						document.ajax.dyn.value="Error: returned status code " + req.status + " " + req.statusText;
@@ -44,10 +45,12 @@
 		   req.send(null); 
       } 
    </script>
+   DATA:
    <script> submitForm(); </script>
-	   <div id="zone">
+	   <div id='showprayertime'>
      
  	   </div> 
+ 	DONE:   
     ]]>
   </Content>
 </Module>
