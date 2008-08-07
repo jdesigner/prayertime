@@ -5,48 +5,9 @@
   </ModulePrefs>
   <Content type="html">
     <![CDATA[
-      <script language="JavaScript">
-		function submitForm() { 
-			
-		 	var req = null; 
-			 
-			if (window.XMLHttpRequest){
-	 			req = new XMLHttpRequest();
-			} 
-			else if (window.ActiveXObject){
-				try {
-					req = new ActiveXObject("Msxml2.XMLHTTP");
-				} catch (e)
-				{
-					try {
-						req = new ActiveXObject("Microsoft.XMLHTTP");
-					} catch (e) {}
-				}
-	        }
-
-			req.onreadystatechange = function(){ 
-			
-				if(req.readyState == 4){
-					if(req.status == 200){
-					    
-						var doc = req.responseText;   // The islamicfinder.com web page as string
-						var tabl = doc.substring(16111,22766);
-						document.getElementById('showprayertime').innerHTML = tabl ;   
-						alert(tabl);  
-					}	
-				    else {
-						document.ajax.dyn.value="Error: returned status code " + req.status + " " + req.statusText;
-			    	}	
-		       } 
-		   }; 
-	
-		   /* Open islamicfinder.com page for india prayer time */
-		   req.open("GET", "http://www.islamicfinder.org/cityPrayerNew.php?country=india", true); 
-		   req.send(null); 
-      } 
-   </script>
+      
    DATA:
-   <script> submitForm(); </script>
+ 
 	   <div id='showprayertime'>
      
  	   </div> 
