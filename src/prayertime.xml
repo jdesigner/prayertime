@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-  <ModulePrefs title="Bangalore Prayer Time">
+  <ModulePrefs title="Bangalore Prayer Time" author_email="gnuhash@gmail.com" title_url="http://code.google.com/p/prayertime" screenshot="http://www.geocities.com/hashipoo3/prayergadget_v1.0.png" thumbnail="http://www.geocities.com/hashipoo3/prayergadget_v1_thumb.png">
     <Require feature="opensocial-0.7" />
   </ModulePrefs>
   <Content type="html">
@@ -8,7 +8,7 @@
 <div id="prayertime" align="center">
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" type="application/x-shockwave-flash" width="200px" height="283px" id="InsertWidget_7c019c7f-c585-44f9-8422-262267422cb7" align="middle"><param name="movie" value="http://widgetserver.com/syndication/flash/wrapper/InsertWidget.swf"/><param name="quality" value="high" /><param name="wmode" value="transparent" /><param name="menu" value="false" /><param name="flashvars" value="r=2&appId=7c019c7f-c585-44f9-8422-262267422cb7" /> <embed src="http://widgetserver.com/syndication/flash/wrapper/InsertWidget.swf"  name="InsertWidget_7c019c7f-c585-44f9-8422-262267422cb7"  width="200px" height="283px" quality="high" menu="false" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" align="middle" flashvars="r=2&appId=7c019c7f-c585-44f9-8422-262267422cb7" /></object>
 </div>
-      
+ <font size=2>gnuhash@gmail.com</font>     
     ]]>
   </Content>
 </Module>
