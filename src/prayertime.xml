@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-  <ModulePrefs title="Bangalore Prayer Time" author_email="gnuhash@gmail.com" title_url="http://code.google.com/p/prayertime" screenshot="http://www.geocities.com/hashipoo3/prayergadget_v1.0.png" thumbnail="http://www.geocities.com/hashipoo3/prayergadget_v1_thumb.png">
+  <ModulePrefs title="Bangalore Prayer Time" description="Displays daily Bangalore Prayer Times" author_email="gnuhash@gmail.com" title_url="http://code.google.com/p/prayertime" screenshot="http://www.geocities.com/hashipoo3/prayergadget_v1.0.png" thumbnail="http://www.geocities.com/hashipoo3/prayergadget_v1_thumb.png">
     <Require feature="opensocial-0.7" />
   </ModulePrefs>
   <Content type="html">
