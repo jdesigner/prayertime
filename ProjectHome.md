@@ -1,0 +1,1 @@
+This app would display the Islamic prayer time of the day
